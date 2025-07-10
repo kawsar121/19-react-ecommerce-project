@@ -3,7 +3,7 @@ import React from "react";
 const AllIteams = () => {
   return (
     <div className="max-w-[1000px] lg:max-w-[1210px] mx-auto my-9  bg-base-100 w-full px-4 sm:px-6 lg:px-2 flex  md:flex-row  gap-5 lg:gap-20 py-2 gap-y-2 mt-3 justify-center">
-      <div className="hidden md:block bg-blue-950 p-5 rounded-lg ">
+      <div className="hidden md:block bg-slate-900 p-5 rounded-lg ">
         <div className="flex items-center gap-10 lg:gap-20 text-center my-6">
           <p>Price</p>
           <button className="border-red-400 px-3 border-2 rounded-lg">

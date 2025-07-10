@@ -31,7 +31,7 @@ const Carusol = () => {
   };
 
   return (
-    <div className="relative bg-[#0F172A] p-4 rounded-lg lg:max-w-[1210px] sm:max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center  gap-y-2">
+    <div className="relative bg-slate-800 p-4 rounded-lg lg:max-w-[1210px] sm:max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center  gap-y-2">
       <button
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-900 text-white p-2 rounded-full z-10"
         onClick={() => scroll("left")}
