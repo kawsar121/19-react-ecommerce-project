@@ -82,7 +82,7 @@ const Navbar = () => {
             </details>
           </li>
         </ul>
-        <input type="text" placeholder="Search for iteams" className="ml-3" />
+        <input type="search" placeholder="Search for iteams" className="ml-3" />
         <IoSearchOutline className="w-16"></IoSearchOutline>
       </div>
 

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       {/* First Foot start */}
-      <div className="bg-blue-950 p-10">
+      <div className="bg-[#f2f3f4] p-8">
         <div className="grid lg:flex items-center justify-between w-11/12 mx-auto bg-blue-800 p-8 rounded-xl">
         <div>
           <h2 className="text-2xl">Newsletter</h2>
@@ -64,7 +64,7 @@ const Footer = () => {
 
       {/* Third Footer */}
       <div>
-        <footer className="footer my-3 bg-base-200 text-base-content p-0 lg:p-16 flex justify-between">
+        <footer className="footer  my-4 bg-base-200 text-base-content p-0 lg:p-16 grid lg:flex justify-center lg:justify-between">
           <aside>
             <img className="w-40" src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcompany%2F2023-06-13-648845d83f583.png&w=256&q=75" alt="" srcset="" />
             <p className="flex justify-center items-center gap-1 text-base">

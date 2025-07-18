@@ -15,9 +15,9 @@ const UpNav = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-2 gap-y-2">
         {/* Left Section */}
         <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-          <div className="bg-blue-700 px-3 py-1.5 rounded text-sm sm:text-base whitespace-nowrap">
+          <Link className="bg-blue-700 px-3 py-1.5 rounded text-sm sm:text-base whitespace-nowrap">
             Become a Vendor
-          </div>
+          </Link>
           <p className="text-sm sm:text-base whitespace-nowrap hidden sm:inline">
             Free Express Shopping
           </p>

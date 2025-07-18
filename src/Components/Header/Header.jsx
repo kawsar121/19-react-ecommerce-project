@@ -2,13 +2,10 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="border-t border-b border-gray-300 w-full mb-4  hidden lg:block">
-      <div className=" relative z-20  navbar bg-base-100 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-2 gap-y-2  sm:mt-0 ">
+    <div className="border-t border-b border-gray-300 w-full  hidden lg:block">
+      <div className=" relative z-20  navbar bg-base-100 w-full max-w-7xl mx-auto sm:px-6 lg:px-8 flex  md:flex-row items-center gap-0 lg:gap-11 py-0 gap-y-2  sm:mt-0 ">
         <div className="lg:flex hidden justify-center items-center">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <details>
-                <summary className="bg-blue-600 p-3 text-lg">
+                <div className="bg-blue-600 p-5 text-lg flex justify-center items-center gap-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -24,36 +21,7 @@ const Header = () => {
                     />
                   </svg>
                   Brows category
-                </summary>
-                <ul className="p-2">
-                  <li className="border-b-2 border-indigo-500 text-base">
-                    <Link className="whitespace-nowrap">Bags and shoes</Link>
-                  </li>
-                  <li className="border-b-2 border-indigo-500 font-medium">
-                    <Link className="whitespace-nowrap">
-                      Home Pet and applience
-                    </Link>
-                  </li>
-                  <li className="border-b-2 border-indigo-500 text-base">
-                    <Link className="whitespace-nowrap">Phones & telecom</Link>
-                  </li>
-                  <li className="border-b-2 border-indigo-500 text-base">
-                    <Link className="whitespace-nowrap">
-                      Computer office and security
-                    </Link>
-                  </li>
-                  <li className="border-b-2 border-indigo-500 text-base">
-                    <Link className="whitespace-nowrap">Mobile Accories</Link>
-                  </li>
-                  <li className="border-b-2 border-indigo-500 text-base">
-                    <Link className="whitespace-nowrap">
-                      Toys kids and babies
-                    </Link>
-                  </li>
-                </ul>
-              </details>
-            </li>
-          </ul>
+                </div>
         </div>
 
         <div>
@@ -109,7 +77,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div>{/* hello */}</div>
+        {/* <div>hello</div> */}
       </div>
     </div>
   );
