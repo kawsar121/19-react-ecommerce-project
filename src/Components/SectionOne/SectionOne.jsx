@@ -5,36 +5,36 @@ const SectionOne = () => {
     <div className="flex max-w-[1238px] mx-auto  p-4 rounded-lg w-full  gap-20">
       <div className="hidden lg:block ">
         <ul className=" p-5 shadow-xl ">
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Bags and shoes</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 font-medium mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Home Pet and applience</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Phones & telecom</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">
               Computer office and security
             </Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Mobile Accories</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Toys kids and babies</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Beauty Healt hair</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Toys kids and babies</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Juwelary And Watch</Link>
           </li>
-          <li className="border-b-2 border-indigo-500 text-base mb-4">
+          <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">Ebook</Link>
           </li>
           <li className=" text-center">

@@ -13,7 +13,7 @@ const SectionFive = () => {
 
         <div className="flex gap-0 lg:gap-6">
                 {/* Card */}
-        <div className="card bg-bg-[#e6e8f0] w-60 shadow-xl">
+        <div className="card hover:shadow-lg w-60 ">
           <figure className="px-10 pt-10">
             <img
               src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64882013626e6.png&w=256&q=75"
@@ -27,7 +27,7 @@ const SectionFive = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 hover:shadow-lg lg:grid-cols-4 gap-4">
                 <div className="flex items-center gap-3">
                     <div>
                         <img src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881fc8d29c5.png&w=256&q=75" alt="" srcset="" className="w-20" />

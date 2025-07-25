@@ -46,8 +46,8 @@ const SectionTwo = () => {
         <div className="text-xl font-extrabold text-center justify-center flex items-center gap-2 text-yellow-400 mb-2">
          <img src="https://martcms-dev-react.6amdev.xyz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflash-deal.70e1fa77.png&w=96&q=75" alt="" srcset="" />
       </div>
-      <h2 className="text-xl font-semibold mb-1 text-center">FLASH DEAL</h2>
-      <p className="text-xs text-gray-300 mb-6 text-center">
+      <h2 className="text-xl font-semibold mb-1 text-black mt-5 text-center">FLASH DEAL</h2>
+      <p className="text-xs text-[#121828] mb-6 text-center">
         Remains until the end of the offer
       </p>
 
@@ -67,7 +67,7 @@ const SectionTwo = () => {
 };
 
 const TimeBox = ({ label, value }) => (
-  <div className="bg-blue-600 rounded-md px-1  text-center w-10">
+  <div className="bg-blue-600 rounded-md px-2  text-center w-10">
     <div className="text-sm font-bold">{String(value).padStart(2, "0")}</div>
     <div className="text-xs mt-1">{label}</div>
   </div>

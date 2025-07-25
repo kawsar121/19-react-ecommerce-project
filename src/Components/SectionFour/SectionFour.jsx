@@ -28,7 +28,7 @@ const SectionFour = () => {
         {/* Card Iteam */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 ">
         {/* First */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg  text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -39,14 +39,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -97,7 +97,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Second */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -108,14 +108,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -166,7 +166,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Third */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -177,14 +177,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -235,7 +235,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Fourth */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -246,14 +246,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -304,7 +304,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Fifth */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -315,14 +315,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -373,7 +373,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Sixth */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -384,14 +384,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -442,7 +442,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Seven */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -453,14 +453,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -511,7 +511,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Eight */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -522,14 +522,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -580,7 +580,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Nine */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -591,14 +591,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -649,7 +649,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* Ten */}
-        <div className="max-w-xs bg-[#e6e8f0] text-white rounded-xl relative group p-4 w-52">
+        <div className="max-w-xs hover:shadow-lg text-white rounded-xl relative group p-4 w-52">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -660,14 +660,14 @@ const SectionFour = () => {
             className="rounded-xl mx-auto w-48"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>

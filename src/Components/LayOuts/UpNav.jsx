@@ -11,14 +11,14 @@ import { Link } from "react-router-dom";
 
 const UpNav = () => {
   return (
-    <div className="w-full bg-blue-800 text-white text-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-2 gap-y-2">
+    <div className="w-full bg-[#0d1d35] text-white text-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-1 gap-y-2">
         {/* Left Section */}
         <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-          <Link className="bg-blue-700 px-3 py-1.5 rounded text-sm sm:text-base whitespace-nowrap">
+          <Link className="bg-blue-700 px-5 py-1 rounded-full  text-base lg:text-sm whitespace-nowrap">
             Become a Vendor
           </Link>
-          <p className="text-sm sm:text-base whitespace-nowrap hidden sm:inline">
+          <p className="text-sm whitespace-nowrap hidden sm:inline">
             Free Express Shopping
           </p>
         </div>
@@ -31,7 +31,7 @@ const UpNav = () => {
             <ul className="relative z-50 menu menu-horizontal p-0 m-0">
               <li>
                 <details>
-                  <summary className="text-sm sm:text-base">USD</summary>
+                  <summary className="text-sm">USD</summary>
                   <ul className="p-1 bg-white text-black">
                     <li><a>USD</a></li>
                     <li><a>Rupees</a></li>
@@ -46,7 +46,7 @@ const UpNav = () => {
               <li>
                 <details>
                   <summary className="text-sm sm:text-base flex items-center gap-1">
-                    <svg
+                    {/* <svg
                       className="w-5 h-5 rounded-full hidden sm:inline"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,9 @@ const UpNav = () => {
                       <g fill="#fff">
                         <use xlinkHref="#a" />
                       </g>
-                    </svg>
-                    <span className="hidden sm:inline">English (En)</span>
+                    </svg> */}
+                    <img src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fpublic%2Fassets%2Ffront-end%2Fimg%2Fflags%2Fen.png&w=32&q=75" alt="" className=" hidden sm:inline" />
+                    <span className="hidden sm:inline text-sm">English</span>
                     <span className="sm:hidden">En</span>
                   </summary>
                   <ul className="p-1 bg-white text-black">
@@ -96,13 +97,13 @@ const UpNav = () => {
           </div>
 
           {/* Desktop Icons */}
-          <div className="hidden lg:flex items-center gap-2">
-            <Link><CiTwitter className="text-2xl" /></Link>
-            <Link><CiLinkedin className="text-2xl" /></Link>
-            <Link><FaGooglePlusG className="text-2xl" /></Link>
-            <Link><FaPinterest className="text-2xl" /></Link>
-            <Link><FaInstagram className="text-2xl" /></Link>
-            <Link><CiFacebook className="text-2xl" /></Link>
+          <div className="hidden lg:flex items-center gap-4">
+            <Link><CiTwitter className="text-xl" /></Link>
+            <Link><CiLinkedin className="text-xl" /></Link>
+            <Link><FaGooglePlusG className="text-xl" /></Link>
+            <Link><FaPinterest className="text-xl" /></Link>
+            <Link><FaInstagram className="text-xl" /></Link>
+            <Link><CiFacebook className="text-xl" /></Link>
           </div>
         </div>
       </div>

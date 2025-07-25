@@ -33,7 +33,7 @@ const Carousel2 = () => {
   return (
     <div className="relative p-4 rounded-lg lg:max-w-[1210px] sm:max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center  gap-y-2">
       <button
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-900 text-white p-2 rounded-full z-10"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 hover:bg-blue-900 text-slate-400 p-2 rounded-full z-10"
         onClick={() => scroll("left")}
       >
         <ChevronLeft size={20} />
@@ -46,7 +46,7 @@ const Carousel2 = () => {
         {categories.map((cat, idx) => (
 
           // Cart
-          <div className="max-w-xs bg-[#0F172A] text-white rounded-xl relative group p-6">
+          <div className="max-w-xs text-white rounded-xl relative group p-6">
           <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
             -$233
           </span>
@@ -57,14 +57,14 @@ const Carousel2 = () => {
             className="rounded-xl mx-auto"
           />
 
-          <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+          <div className="absolute top-3 right-[-14px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
               ❤️
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               🛒
             </button>
-            <button className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
+            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
               👁️
             </button>
           </div>
@@ -101,24 +101,24 @@ const Carousel2 = () => {
             (0)
           </div>
 
-          <div className="text-center mt-1 text-gray-400 text-sm">
+          <div className="text-center mt-1 text-[#65748B] text-sm">
             Tech Shop
           </div>
 
-          <div className="text-center font-semibold truncate">
+          <div className="text-center text-[#121828] font-semibold truncate">
             {cat.name}
           </div>
 
           <div className="text-center mt-1">
             <span className="line-through text-gray-400 mr-2">$118</span>
-            <span className="text-lg font-bold text-white">$115</span>
+            <span className="text-lg font-bold text-[#121828]">$115</span>
           </div>
         </div>
         ))}
       </div>
 
       <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-900 text-white p-2 rounded-full z-10"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 hover:bg-blue-900 hover:text-slate-400 bg-blue-400 text-white p-2 rounded-full z-10"
         onClick={() => scroll("right")}
       >
         <ChevronRight size={20} />
