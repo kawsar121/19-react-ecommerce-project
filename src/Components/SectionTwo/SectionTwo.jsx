@@ -41,7 +41,7 @@ const SectionTwo = () => {
   }, []);
 
   return (
-    <div className="my-20 max-w-[1238px] mx-auto grid lg:flex gap-12 items-center justify-center text-white px-4">
+    <div className="my-8 lg:my-20 max-w-[1238px] mx-auto grid lg:flex gap-12 items-center justify-center text-white px-4">
       <div>
         <div className="text-xl font-extrabold text-center justify-center flex items-center gap-2 text-yellow-400 mb-2">
          <img src="https://martcms-dev-react.6amdev.xyz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflash-deal.70e1fa77.png&w=96&q=75" alt="" srcset="" />
@@ -52,7 +52,7 @@ const SectionTwo = () => {
       </p>
 
       <div className="flex gap-8 justify-center">
-        <TimeBox label="Days" value={timeLeft.days} />
+        <TimeBox  label="Days" value={timeLeft.days} />
         <TimeBox label="Hours" value={timeLeft.hours} />
         <TimeBox label="Minu" value={timeLeft.minutes} />
         <TimeBox label="Sec" value={timeLeft.seconds} />
