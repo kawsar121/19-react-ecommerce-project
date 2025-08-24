@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const UpNav = () => {
   return (
-    <div className="w-full bg-[#0d1d35] text-white text-sm">
+    <div className="w-full  bg-[#0d1d35] text-white text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-1 gap-y-2">
         {/* Left Section */}
         <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">

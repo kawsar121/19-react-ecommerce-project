@@ -8,18 +8,24 @@ import 'swiper/css/pagination';
 import '../../../src/App.css';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 const Swipers = () => {
   return (
     <>
       <Swiper
         spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500, // 2.5 seconds
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
-        className="mySwiper"
+        // navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="rounded-xl shadow-lg"
       >
         <SwiperSlide>
           <img

@@ -65,9 +65,11 @@ const SectionOne = () => {
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2 w-full">
         <div class="md:col-span-2 flex flex-col gap-1">
+          {/* Top */}
           <div className="w-full">
             <Swipers></Swipers>
           </div>
+          {/* Bottom */}
           <div className="flex flex-col md:flex-row gap-1">
             <img
               className="w-full hidden lg:block md:w-1/2 h-auto object-cover rounded-lg"
@@ -85,9 +87,11 @@ const SectionOne = () => {
           </div>
         </div>
 
+
+        {/* Side */}
         <div class="hidden lg:block w-full">
           <div className="carousel  w-full h-full max-h-[511px] rounded-lg overflow-hidden">
-            <div id="slide00" className="carousel-item relative w-full">
+            <div id="slide00" className="carousel-item relative w-full trans">
               <img
                 src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a37896e5a78.webp&w=256&q=75"
                 className="w-full"

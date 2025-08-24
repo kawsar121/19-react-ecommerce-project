@@ -1,73 +1,8 @@
-import { useEffect, useState } from "react";
+import React from 'react';
 
-const SectionEigth = () => {
-  const [load, setLoad] = useState([]);
-
-    useEffect(() => {
-        fetch("/moreproduct.json")
-          .then((res) => res.json())
-          .then((data) => {
-            setLoad(data);
-            
-          })
-          .catch((error) => {
-            console.error("ডেটা আনার সময় সমস্যা:", error);
-           
-          });
-      }, []);
-
+const View = () => {
     return (
-        <div className="w-full max-w-5xl lg:max-w-6xl  mx-auto items-center my-8">
-            <div className="my-8 border-[#e6e8f0] border-b-2 pb-3">
-                <h1 className="text-2xl font-medium">All Products</h1>
-            </div>
-            {/* Card Iteam */}
-      <div className="grid justify-center md:grid-cols-3 lg:grid-cols-5 gap-10 mt-10">
-        {load.map((dataload) => (
-          <div key={dataload.id} className="max-w-xs hover:shadow-lg  text-white rounded-xl relative group p-4 w-52">
-          <span className="absolute top-2 left-2 z-20 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
-            {dataload.discount_price}
-          </span>
-
-          <div className="">
-            <img
-            src={dataload.accessories_image}
-            alt="Charger"
-            className="rounded-xl mx-auto w-48 transform scale-110 group-hover:scale-100 transition-transform duration-500"
-          />
-          </div>
-
-          {/* Button icon */}
-          <div className="absolute top-3 right-[-2px] flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
-            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
-              <svg
-                width="14"
-                height="12"
-                viewBox="0 0 14 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.375 11.0489L12.3334 1.24894C12.3334 0.632819 11.8561 0.133789 11.2668 0.133789H7.0001H2.73343C2.1441 0.133789 1.66676 0.632819 1.66676 1.24894L0.625164 11.0489C0.609698 11.1253 0.600098 11.2039 0.600098 11.2853C0.600098 11.9014 1.07743 12.4005 1.66676 12.4005H7.0001H12.3334C12.9228 12.4005 13.4001 11.9014 13.4001 11.2853C13.4001 11.2039 13.3905 11.1253 13.375 11.0489ZM9.66676 2.87037V3.47924C9.66676 5.01648 8.4705 6.26712 7.0001 6.26712C5.5297 6.26712 4.33343 5.01648 4.33343 3.47924V2.87037C4.02356 2.75551 3.8001 2.44884 3.8001 2.0853C3.8001 1.62363 4.1585 1.24894 4.6001 1.24894C5.0417 1.24894 5.4001 1.62363 5.4001 2.0853V3.47924C5.4001 4.40147 6.11796 5.15197 7.0001 5.15197C7.88223 5.15197 8.6001 4.40147 8.6001 3.47924V2.0853C8.6001 1.62363 8.9585 1.24894 9.4001 1.24894C9.8417 1.24894 10.2001 1.62363 10.2001 2.0853C10.2001 2.44884 9.97663 2.75551 9.66676 2.87037Z"
-                  fill="#1455ac"
-                ></path>
-              </svg>
-            </button>
-            <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
-              <svg
-                width="14"
-                height="12"
-                viewBox="0 0 14 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7 11.625C6.92001 11.6258 6.84122 11.6056 6.77148 11.5664C6.51953 11.4258 0.671875 8.10352 0.671875 3.89062C0.671875 3.15276 0.904038 2.43359 1.33548 1.835C1.76692 1.23641 2.37576 0.788745 3.07576 0.55541C3.77577 0.322076 4.53144 0.314905 5.23575 0.534913C5.94005 0.754922 6.55728 1.19096 7 1.78125C7.44272 1.19096 8.05995 0.754922 8.76425 0.534913C9.46856 0.314905 10.2242 0.322076 10.9242 0.55541C11.6242 0.788745 12.2331 1.23641 12.6645 1.835C13.096 2.43359 13.3281 3.15276 13.3281 3.89062C13.3281 5.68359 12.291 7.52344 10.2461 9.36328C9.31752 10.1981 8.30646 10.9362 7.22852 11.5664C7.15878 11.6056 7.07999 11.6258 7 11.625ZM4.1875 1.3125C3.50374 1.3125 2.84798 1.58412 2.36449 2.06762C1.881 2.55111 1.60938 3.20686 1.60938 3.89062C1.60938 7.125 5.94531 9.9668 7 10.6113C8.05469 9.9668 12.3906 7.125 12.3906 3.89062C12.3912 3.29462 12.1852 2.71684 11.8078 2.25559C11.4303 1.79433 10.9047 1.47809 10.3204 1.36068C9.73609 1.24326 9.12914 1.33192 8.60282 1.61157C8.0765 1.89122 7.66332 2.34458 7.43359 2.89453C7.39828 2.9805 7.3382 3.05404 7.261 3.10579C7.18379 3.15754 7.09295 3.18517 7 3.18517C6.90706 3.18517 6.81621 3.15754 6.739 3.10579C6.6618 3.05404 6.60172 2.9805 6.56641 2.89453C6.3713 2.42476 6.041 2.02357 5.61744 1.74189C5.19388 1.46022 4.69617 1.31076 4.1875 1.3125Z"
-                  fill="#1455ac"
-                ></path>
-              </svg>
-            </button>
-
+        <div>
             {/* adjust Modal */}
             {/* You can open the modal using document.getElementById('ID').showModal() method */}
             <button
@@ -93,11 +28,11 @@ const SectionEigth = () => {
               <div className=" bg-white p-10">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
-                  <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-[18rem] top-10 ">
+                  <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-[20rem] top-10 ">
                     ✕
                   </button>
                 </form>
-                <div className="flex gap-24 justify-center my-32">
+                <div className="flex-col lg:flex gap-24 justify-center my-32">
                   {/* card */}
                   <div className="max-w-xs  text-white rounded-xl relative group p-4 w-52">
                     <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
@@ -209,64 +144,15 @@ const SectionEigth = () => {
                         Buy Now
                       </button>
                       <button className="bg-blue-300 px-8 py-3">
-                        Add to Cart
+                        Add to Cartssss
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
             </dialog>
-          </div>
-
-          <div className="flex justify-center mt-4 text-gray-400 text-sm">
-            <div className="rating rating-xs">
-              <input
-                type="radio"
-                name="rating-5"
-                className="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-5"
-                className="mask mask-star-2 bg-orange-400"
-                defaultChecked
-              />
-              <input
-                type="radio"
-                name="rating-5"
-                className="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-5"
-                className="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-5"
-                className="mask mask-star-2 bg-orange-400"
-              />
-            </div>{" "}
-            (0)
-          </div>
-
-          <div className="text-center mt-1 text-gray-500 text-sm">
-            {dataload.brand}
-          </div>
-
-          <div className="text-center text-black font-semibold truncate">
-           {dataload.accessories_name}
-          </div>
-
-          <div className="text-center mt-1">
-            <span className="line-through text-gray-500 mr-2">{dataload.discount_price}</span>
-            <span className="text-lg font-bold text-black">{dataload.price}</span>
-          </div>
-          </div>
-        ))}
-      </div>
         </div>
     );
 };
 
-export default SectionEigth;
+export default View;

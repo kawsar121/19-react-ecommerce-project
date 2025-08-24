@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SectionSix_carusol = () => {
   return (
-    <div>
+    <div className=" w-full max-w-5xl lg:max-w-6xl  mx-auto">
       <div className="flex items-center justify-between border-slate-500 border-b-2 mb-10">
         <h2 className="text-2xl font-normal">
           <span className="text-blue-500">POPULAR</span> CATEGORIES
@@ -13,9 +13,9 @@ const SectionSix_carusol = () => {
 
 
       {/* Card */}
-      <div className="gird lg:flex gap-7 my-5 justify-center">
+      <div className="gird w-full mx-auto lg:flex gap-3 lg:gap-7 my-5 justify-center">
         {/* Card One */}
-      <div className="bg-[#f5f6f8] w-[400px] px-3 py-8">
+      <div className="bg-[#f5f6f8] w-[400px] px-3 py-8 ">
         <button className=" ml-56 px-2 text-xs btn bg-red-600 border-none">Use Cupon : axyfji</button>
         <h2 className="text-black font-medium">Delux Online</h2>
         <p className="text-xs text-black">10 Product</p>
@@ -135,7 +135,7 @@ const SectionSix_carusol = () => {
             <img
               src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
               alt="Charger"
-              className="rounded-xl mx-auto"
+              className="rounded-xl mx-auto transform scale-110 group-hover:scale-100 transition-transform duration-500"
             />
           </div>
 

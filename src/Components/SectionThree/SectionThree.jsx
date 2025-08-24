@@ -6,14 +6,14 @@ const SectionThree = () => {
         <p className="text-blue-600 text-2xl text-center lg:hidden mt-2">
           Deal Of The Day
         </p>
-        <figure className="px-10 pt-[0.25rem] ">
+        <figure className="px-10 pt-[0.25rem] overflow-hidden  group ">
           <p className="text-blue-600 mt-1 absolute text-4xl hidden lg:block">
             Deal Of The Day
           </p>
           <img
             src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2F2023-06-13-648861cfa6410.png&w=384&q=75"
             alt="Shoes"
-            className="rounded-xl mt-16 w-72"
+            className="rounded-xl mt-16 w-72 transform scale-110 group-hover:scale-100 transition-transform duration-500"
           />
         </figure>
         <div className="card-body items-center text-center">

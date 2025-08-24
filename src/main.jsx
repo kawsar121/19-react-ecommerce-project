@@ -10,6 +10,8 @@ import MainLayouts from './Components/LayOuts/MainLayouts.jsx';
 import Register from './Components/Pages/Register.jsx';
 import Login from './Components/Pages/Login.jsx';
 import ViewPage from './Components/Pages/ViewPage.jsx';
+import Drawer from './Components/Theme/Drawer.jsx';
+import View from './Components/Theme/View.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
     path: "login",
     element: <Login></Login>
   },
+  {
+    path: "/drawer",
+    element: <Drawer></Drawer>
+  },
+  {
+    path: "/view",
+    element: <View></View>
+  }
   // {
   //   path: "/viewPage",
   //   element: <ViewPage></ViewPage>

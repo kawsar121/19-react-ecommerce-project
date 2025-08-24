@@ -20,7 +20,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder=" Enter Your Email"
-            className="input input-bordered join-item px-10"
+            className="input input-bordered join-item px-10 border-none focus:outline-none"
           />
           <button className="btn btn-primary join-item">Submit</button>
         </div>
@@ -104,7 +104,7 @@ const Footer = () => {
       <div>
         <footer className="footer text-neutral-content flex justify-center py-4 items-center p-2 bg-[#1B7FED4D] ">
           <aside className="grid-flow-col items-center">
-            <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+            <p className="text-black">Copyright © {new Date().getFullYear()} - All right reserved</p>
           </aside>
         </footer>
       </div>
