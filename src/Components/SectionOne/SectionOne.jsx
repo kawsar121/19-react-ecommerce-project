@@ -4,8 +4,8 @@ import Swipers2 from "../Swiper/Swipers2";
 
 const SectionOne = () => {
   return (
-    <div className="flex max-w-7xl mx-auto  p-5 rounded-lg w-full">
-      <div className="hidden lg:block ">
+    <div className="flex max-w-7xl mx-auto gap-4  p-2 rounded-lg w-full">
+      <div className="hidden lg:block shadow-custom">
         <ul className=" p-5 shadow-xl ">
           <li className="border-b-[1px] border-[#e5e7eb] pb-2 text-sm mb-4">
             <Link className="whitespace-nowrap font-semibold">
@@ -63,23 +63,24 @@ const SectionOne = () => {
         </ul>
       </div>
 
+      {/* Side Bar */}
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2 w-full">
-        <div class="md:col-span-2 flex flex-col gap-1">
+        <div class="md:col-span-2 flex flex-col gap-2">
           {/* Top */}
           <div className="w-full">
             <Swipers></Swipers>
           </div>
           {/* Bottom */}
-          <div className="flex flex-col md:flex-row gap-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <img
-              className="w-full hidden lg:block md:w-1/2 h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg"
               src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36dd06beed.webp&w=640&q=75"
               alt=""
               srcset=""
             />
 
             <img
-              className="w-full hidden lg:block md:w-1/2 h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg"
               src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36d8914714.webp&w=640&q=75"
               alt=""
               srcset=""
@@ -89,7 +90,7 @@ const SectionOne = () => {
 
 
         {/* Side */}
-        <div class="hidden lg:block w-full">
+        <div class="hidden lg:block w-full h-full">
           <div className="carousel  w-full h-full max-h-[511px] rounded-lg overflow-hidden">
             <div id="slide00" className="carousel-item relative w-full trans">
               <img
@@ -124,9 +125,7 @@ const SectionOne = () => {
             <Swipers2></Swipers2>
           </div> */}
         </div>
-        
-
-        
+      
       </div>
     </div>
   );
