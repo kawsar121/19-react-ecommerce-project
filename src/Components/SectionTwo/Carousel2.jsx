@@ -103,7 +103,7 @@ const Carousel2 = () => {
         {categories.map((cat, idx) => (
           // Cart
           <div className="max-w-xs text-white rounded-xl relative group p-6">
-            <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
+            <span className="absolute top-2 left-2 bg-red-600 text-white text-xs px-1 py-1 rounded-full">
               -$233
             </span>
 
@@ -163,14 +163,14 @@ const Carousel2 = () => {
                 </button>
               </button>
               <dialog id="my_modal_3" className="modal">
-                <div className=" bg-white p-10">
+                <div className=" bg-white p-5">
                   <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
                     <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-[18rem] top-10 ">
                       ✕
                     </button>
                   </form>
-                  <div className="flex gap-24 justify-center my-32">
+                  <div className="flex gap-24 justify-center my-5">
                     {/* card */}
                     <div className="max-w-xs  text-white rounded-xl relative group p-4 w-52">
                       <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
@@ -365,17 +365,17 @@ const Carousel2 = () => {
               (0)
             </div>
 
-            <div className="text-center mt-1 text-[#65748B] text-sm">
+            <div className="text-center mt-1 text-[#65748B] text-xs">
               Tech Shop
             </div>
 
-            <div className="text-center text-[#121828] font-semibold truncate">
+            <div className="text-center text-[#121828] text-base font-bold truncate">
               {cat.name}
             </div>
 
             <div className="text-center mt-1">
-              <span className="line-through text-gray-400 mr-2">$118</span>
-              <span className="text-lg font-bold text-[#121828]">$115</span>
+              <span className="line-through text-gray-400 text-xs mr-2">$118</span>
+              <span className="text-sm font-bold text-[#121828]">$115</span>
             </div>
           </div>
         ))}

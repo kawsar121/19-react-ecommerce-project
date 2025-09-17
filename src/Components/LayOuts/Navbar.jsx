@@ -8,48 +8,17 @@ import ThemesControlers from "../Theme/ThemesControlers";
 const Navbar = () => {
   return (
     <div className="relative z-30 navbar bg-base-100 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-2 gap-y-2 mt-3 ">
+      {/* DropDown Icon */}
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-          >
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <img
+       <img
           className="w-28 h-10 lg:w-[120px] lg:h-[40px] "
           src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcompany%2F2024-09-22-66eff19c3253e.webp&w=384&q=75"
           alt=""
           srcset=""
         />
       </div>
+
+      
       <div className="navbar-center hidden lg:flex border-2 input-primary w-full  max-w-lg p-0 rounded-full">
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -95,13 +64,21 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="navbar-end gap-6 items-center">
+      <div className="navbar-end gap-2 md:gap-6 items-center">
         {/* Theme controller start */}
-        <div>
+       
           <ThemesControlers></ThemesControlers>
-        </div>
+    
         {/* Theme controller start */}
+
+
+        
+        {/* Search Icon for small device */}
+        <div className="md:hidden">
+          <IoSearchOutline className="text-xl mr-2"></IoSearchOutline>
+        </div>
         {/* Profile Icon */}
+        
         {/* <Link to="/register" className="border-r-[1px] border-[#65748B] pr-2">
           <svg
             width="28"
@@ -119,7 +96,7 @@ const Navbar = () => {
 
         {/* You can open the modal using document.getElementById('ID').showModal() method */}
         <button
-          className="border-r-[1px] border-[#65748B] pr-2"
+          className="border-r-[1px] md:border-[#65748B] pr-0 md:pr-2"
           onClick={() => document.getElementById("my_modal_3").showModal()}
         >
           <svg
@@ -135,7 +112,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </button>
-        <dialog id="my_modal_3" className="modal mt-2">
+        <dialog id="my_modal_3" className="modal mt-0 ">
           <div className="modal-box">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
@@ -143,10 +120,10 @@ const Navbar = () => {
                 ✕
               </button>
             </form>
-            <p className="py-4">
+            <div className="py-0">
 
               {/* Register Start */}
-              < div className="card bg-base-100 w-full max-w-sm mx-auto mt-20 shrink-0 shadow-2xl">
+              < div className="card bg-base-100 w-full max-w-sm mx-auto mt-2 shrink-0 shadow-2xl">
             <h1 className="text-5xl text-center font-bold">Register now!</h1>
           <form  className="card-body">
             <div className="form-control">
@@ -188,12 +165,12 @@ const Navbar = () => {
           </form>
               </div>
               {/* Register End */}
-            </p>
+            </div>
           </div>
         </dialog>
 
         {/* random icon */}
-        <div className="border-r-[1px] border-[#65748B] pr-2">
+        <div className="border-r-[1px] border-[#65748B] pr-2 hidden md:block">
           <svg
             width="21"
             height="20"
@@ -209,8 +186,10 @@ const Navbar = () => {
           </svg>
         </div>
         {/* <IoMdHeartEmpty className="text-2xl border-r-[1px] border-[#65748B] pr-2"></IoMdHeartEmpty> */}
-        {/* Heart mode */}
-        <svg
+        
+        {/* Heart Icon */}
+       <div className="hidden md:block">
+         <svg
           width="30"
           height="25"
           className="border-r-[1px] border-[#65748B] pr-2"
@@ -223,10 +202,48 @@ const Navbar = () => {
             fill="#65748B"
           ></path>
         </svg>
+       </div>
 
         {/* Start Drawer */}
-        <Drawer></Drawer>
+        <div className="hidden md:block">
+          <Drawer></Drawer>
+        </div>
         {/* End Drawer */}
+
+          <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a>Parent</a>
+              <ul className="p-2">
+                <li>
+                  <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          </div>
       </div>
     </div>
   );

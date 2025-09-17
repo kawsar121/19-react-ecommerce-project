@@ -24,7 +24,7 @@ const UpNav = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center gap-4 flex-wrap justify-center md:justify-end">
+        <div className="flex items-center gap-1 md:gap-4 flex-wrap justify-center md:justify-end">
           {/* Currency & Language */}
           <div className="flex items-center gap-1">
             {/* Currency */}
@@ -108,7 +108,7 @@ const UpNav = () => {
                 </span>
 
                 {/* Dropdown */}
-                <ul className="absolute top-full left-0 mt-1 hidden group-hover:block bg-white text-black rounded shadow-md w-32 z-50">
+                <ul className="absolute top-full left-0 mt-1 hidden group-hover:block bg-white text-black rounded shadow-md w-20 md:w-32 z-50">
                   <li>
                     <Link className="block px-4 py-2 hover:bg-gray-100">
                       English

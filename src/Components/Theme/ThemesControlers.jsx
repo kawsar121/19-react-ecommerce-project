@@ -22,7 +22,7 @@ const themes = ["light", "dark"];
 
 
     return (
-        <div>
+        <div className="hidden md:block">
             {/* Theme Controll start */}
       <div>
         <button

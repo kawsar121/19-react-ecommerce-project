@@ -18,7 +18,7 @@ import SectionNine from '../SectionNine/SectionNine';
 
 const MainLayouts = () => {
     return (
-        <div className="w-full m-0 p-0 justify-center">
+        <div className="w-full m-0 p-0 justify-center font-mulish">
             <nav className="w-full ">
                 <UpNav></UpNav>
                 <Navbar></Navbar>

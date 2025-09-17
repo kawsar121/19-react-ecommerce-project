@@ -4,6 +4,8 @@
     "accessories_name": "Pet cleaning lotaion",
     "discount_price": "$480",
     "price": "$500",
+    "quantity": "1",
+    "company": "6am Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F36ac8e558ac7690b6f44e2cb5ef93322%2FSelf-cleaning-automatique-brush.png&w=640&q=75"
   },
   {
@@ -11,6 +13,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$520",
     "price": "$560",
+    "quantity": "2",
+    "company": "6am Splass",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F7d62a275027741d98073d42b8f735c68%2F1.png&w=640&q=75"
   },
   {
@@ -18,6 +22,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$650",
     "price": "$690",
+    "quantity": "9",
+    "company": "Tech Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F1baff70e2669e8376347efd3a874a341%2Fry5YSH94lLEI6pHxDQwiEqVlKoLfnh-metaUGV0LUhhaXItYnJ1c2gucG5n-.png&w=640&q=75"
   },
   {
@@ -25,6 +31,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$250",
     "price": "$300",
+    "quantity": "5",
+    "company": "6am Catal",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F63cb524a9f51b7858733e1108bf556fa%2FCat-Self-Grooming-Soft-Face-Scratchers-Brush-Massage-Comb.png&w=640&q=75"
   },
   {
@@ -32,6 +40,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$20",
     "price": "$50",
+    "quantity": "3",
+    "company": "Red Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2Fb534ba68236ba543ae44b22bd110a1d6%2FNzPdSRgDNNaRO74Xri8G1lT5MGvaVP-metaU21hcnRIZWFydC1BZHVsdC1Eb2ctRm9vZC1DaGlja2VuLSYtRWdnLTNrZy5wbmc%3D-.png&w=640&q=75"
   },
   {
@@ -39,6 +49,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$20",
     "price": "$50",
+    "quantity": "8",
+    "company": "Summer Con",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2Fdaa96d9681a21445772454cbddf0cac1%2FLWfJbhYmEbr6VKTOBLTAZWHJsNl11S-metaUGV0LWhhcm5lc3MucG5n-.png&w=640&q=75"
   },
   {
@@ -46,6 +58,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$20",
     "price": "$50",
+    "quantity": "9",
+    "company": "6am Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F66e8ba8216a1e152d72653d99a4f03ab%2FBeavis-Professional-Milk-Thistle-Tumeric-Cat-Tabs-100-Tabs.png&w=640&q=75"
   },
   {
@@ -53,6 +67,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$20",
     "price": "$50",
+    "quantity": "4",
+    "company": "6am Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2Fe56b06c51e1049195d7b26d043c478a0%2FElyQ3JdDsFgTCK3eHzm7eFOjyH4cxf-metaUGV0LXNob3dlci0mLUdyb29taW5nLUdsb3Zlcy5wbmc%3D-.png&w=640&q=75"
   },
   {
@@ -60,6 +76,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$20",
     "price": "$50",
+    "quantity": "2",
+    "company": "6am Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2Fb534ba68236ba543ae44b22bd110a1d6%2FNzPdSRgDNNaRO74Xri8G1lT5MGvaVP-metaU21hcnRIZWFydC1BZHVsdC1Eb2ctRm9vZC1DaGlja2VuLSYtRWdnLTNrZy5wbmc%3D-.png&w=640&q=75"
   },
   {
@@ -67,6 +85,8 @@
     "accessories_name": "Happy Paws Animal Hospital",
     "discount_price": "$520",
     "price": "$560",
+    "quantity": "6",
+    "company": "6am Velly",
     "accessories_image": "https://amarpet.com/_next/image?url=https%3A%2F%2Famarpet.blob.core.windows.net%2Fproduction%2F7d62a275027741d98073d42b8f735c68%2F1.png&w=640&q=75"
   }
 ]
