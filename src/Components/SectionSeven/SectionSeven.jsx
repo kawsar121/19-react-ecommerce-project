@@ -67,7 +67,7 @@ const SectionSeven = () => {
         </div>
         {/* Card Div */}
         {/* Card*/}
-      <div className="grid justify-center md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
+      <div className="grid justify-center md:grid-cols-3 lg:grid-cols-4 gap-10">
         {load.map((dataload) => (
           <div
             key={dataload.id}

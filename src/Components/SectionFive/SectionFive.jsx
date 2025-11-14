@@ -15,29 +15,29 @@ const SectionFive = () => {
         </div>
       </div>
 
-      <div className="flex gap-0 lg:gap-6">
+      <div className="flex justify-center gap-0 lg:gap-6">
         {/* Card */}
-        <div className="card hover:shadow-lg w-60 ">
-          <figure className="px-10 pt-10">
+        <div className="card hover:shadow-lg w-40 lg:w-60 ">
+          <figure className="px-10 pt-20">
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64882013626e6.png&w=256&q=75"
+              src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
               alt="Shoes"
-              className="rounded-xl w-40"
+              className="rounded-xl w-32 lg:w-40"
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title whitespace-nowrap font-bold text-black">
+            <h2 className="card-title text-xs lg:text-xl whitespace-nowrap font-bold text-black">
               Outdoor Fun & Sports
             </h2>
             <p className="text-slate-400 text-xs">7 Product</p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 p-20 hover:shadow-lg lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 p-0 lg:p-20 hover:shadow-lg lg:grid-cols-4 gap-6">
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881fc8d29c5.png&w=256&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -52,7 +52,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-648820557a5a9.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -67,7 +67,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881ebad53d0.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -82,7 +82,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881b1462dd9.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -97,7 +97,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488655ea7f52.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -112,7 +112,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881e123c2dd.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -127,7 +127,7 @@ const SectionFive = () => {
           <div className="flex items-center gap-3">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881969b0222.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"
@@ -139,10 +139,10 @@ const SectionFive = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <div>
               <img
-                src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881a1265b65.png&w=64&q=75"
+                src="https://i.ibb.co.com/qMYBvjLP/dessert-bg.jpg"
                 alt=""
                 srcset=""
                 className="w-20"

@@ -11,3 +11,18 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Make Swiper navigation buttons smaller */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 35px !important;
+  height: 35px !important;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 9999px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+  color: white;
+}

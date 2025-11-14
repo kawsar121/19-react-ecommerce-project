@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import iteam from '../../assets/shop/banner2.jpg'
+import img1 from '../../assets/home/slide1.jpg'
+import img2 from '../../assets/home/slide2.jpg'
+import img3 from '../../assets/home/slide3.jpg'
+import img4 from '../../assets/home/slide4.jpg'
+import img5 from '../../assets/home/slide5.jpg'
 
 const SectionThree = () => {
   return (
@@ -7,7 +13,7 @@ const SectionThree = () => {
   <div className="flex flex-col lg:flex-row gap-10">
     
     {/* Left Side - Deal of the Day */}
-    <div className="bg-[#eff7ff] border rounded-xl px-4 py-5 border-[#1455ac4a] w-full lg:w-[40%]">
+    <div className="bg-[#eff7ff] border rounded-xl px-4 py-16 border-[#1455ac4a] w-full lg:w-[40%]">
       {/* Mobile Title */}
       <p className="text-blue-600 text-2xl text-center lg:hidden mb-4 uppercase font-mulish">
         Deal Of The Day
@@ -19,7 +25,7 @@ const SectionThree = () => {
           Deal Of The Day
         </p>
         <img
-          src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2F2023-06-13-648861cfa6410.png&w=384&q=75"
+          src={iteam}
           alt="Shoes"
           className="rounded-xl mt-10 md:mt-16 w-48 sm:w-72 transform scale-110 group-hover:scale-100 transition-transform duration-500"
         />
@@ -27,7 +33,7 @@ const SectionThree = () => {
 
       <div className="card-body items-center text-center mt-4">
         <p className="text-base md:text-lg text-[#121828] font-bold">
-          Stone Crystal Unique Design <br /> Necklace Woman Exquisite Wild...
+          Best Resturents In Your Town <br /> Himalaya's Sepecial Exquisite Wild...
         </p>
         <p className="text-base font-semibold">
           $60 <span className="text-xl font-bold text-blue-500">$50</span>
@@ -61,7 +67,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img1}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -69,7 +75,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Vegetables long-sleeve lightweight french terry fleece quarter-zip top
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -86,7 +92,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img2}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -94,7 +100,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Best's Food Shop in town french  fleece quarter-zip top
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -111,7 +117,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img3}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -119,7 +125,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Handi's Biriyani Best Quality terry fleece quarter-zip top
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -136,7 +142,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img4}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -144,7 +150,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Chikken's Biriyani lightweight price terry fleece you can buy this
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -161,7 +167,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img5}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -169,7 +175,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Muttan's Curry lightweight Price Buy possiable for all
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -186,7 +192,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img3}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -194,7 +200,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Love Cake's with stowverry flavoure lightweight size best plannig for aniversy
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -211,7 +217,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img4}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -219,7 +225,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Mixed Salad Cucumber papaya mixed french quality all are best
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)
@@ -236,7 +242,7 @@ const SectionThree = () => {
               -$233
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src={img2}
               alt="Charger"
               className="rounded-xl w-20 h-20 object-contain"
             />
@@ -244,7 +250,7 @@ const SectionThree = () => {
 
           <div>
             <div className="font-medium text-sm text-[#121828]">
-              Women's long-sleeve lightweight french terry fleece quarter-zip top
+              Nolli big size with nul ruti best combination, Best choise for you
             </div>
             <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
               ⭐⭐⭐⭐⭐ (0)

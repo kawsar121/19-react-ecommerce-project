@@ -1,77 +1,49 @@
 import React, { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import menuimg1 from '../../assets/menu/banner3.jpg'
+import menuimg2 from '../../assets/menu/dessert-bg.jpeg'
+import menuimg3 from '../../assets/menu/pizza-bg.jpg'
+import menuimg4 from '../../assets/menu/salad-bg.jpg'
+import menuimg5 from '../../assets/menu/soup-bg.jpg'
 
 const categories = [
+  
   {
-    name: "Computer",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881b1462dd9.png&w=64&q=75",
+    name: "Biriyani",
+    image:menuimg3,
   },
   {
-    name: "Phones & Gadgets",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488655ea7f52.png&w=64&q=75",
+    name: "Chiken",
+    image:menuimg2,
   },
   {
-    name: "Beauty, Health",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881e123c2dd.png&w=64&q=75",
+    name: "Muttan",
+    image:menuimg4,
   },
   {
-    name: "Bags & Shoes",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881969b0222.png&w=64&q=75",
+    name: "Handi",
+    image:menuimg1,
   },
   {
-    name: "Mobile Accessories",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881db930473.png&w=64&q=75",
+    name: "Omlet",
+    image:menuimg2,
   },
   {
-    name: "Home, Pet",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881a1265b65.png&w=64&q=75",
+    name: "Egg Curry",
+    image:menuimg5,
   },
   {
-    name: "eBook",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-64881f86528da.png&w=64&q=75",
+    name: "Mango Juice",
+    image:menuimg2,
   },
   {
-    name: "Toys, Kids",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488209a179ec.png&w=64&q=75",
+    name: "Orange Juice",
+    image:menuimg3,
   },
   {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
-  },
-  {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
-  },
-  {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
-  },
-  {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
-  },
-  {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
-  },
-  {
-    name: "Home Tools",
-    image:
-      "https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcategory%2F2023-06-13-6488211a870e0.png&w=64&q=75",
+    name: "Banana Juice",
+    image:menuimg4,
   },
 ];
 //

@@ -6,6 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../../../src/App.css';
+import banner1 from '../../assets/home/01.jpg'
+import banner2 from '../../assets/home/02.jpg'
+import banner3 from '../../assets/home/03.png'
+import banner4 from '../../assets/home/04.jpg'
 
 // import required modules
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
@@ -29,22 +33,22 @@ const Swipers = () => {
       >
         <SwiperSlide>
           <img
-            src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36ce9b0038.webp&w=1920&q=75"
+            src={banner1}
             className="w-full"
           /></SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36ce9b0038.webp&w=1920&q=75"
+            src={banner2}
             className="w-full"
           /></SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36ce9b0038.webp&w=1920&q=75"
+            src={banner3}
             className="w-full"
           /></SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fbanner%2F2024-01-14-65a36ce9b0038.webp&w=1920&q=75"
+            src={banner4}
             className="w-full"
           />
         </SwiperSlide>

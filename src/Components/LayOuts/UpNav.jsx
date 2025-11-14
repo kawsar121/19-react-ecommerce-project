@@ -84,11 +84,11 @@ const UpNav = () => {
             <ul className="relative z-50 menu menu-horizontal p-0 m-0">
               <li className="relative group">
                 <span className="text-sm sm:text-base flex items-center gap-1 cursor-pointer">
-                  <img
+                  {/* <img
                     src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fpublic%2Fassets%2Ffront-end%2Fimg%2Fflags%2Fen.png&w=32&q=75"
                     alt="flag"
                     className="hidden sm:inline"
-                  />
+                  /> */}
                   <span className="hidden sm:inline text-sm">English</span>
                   <span className="sm:hidden">En</span>
                   {/* Arrow Icon */}

@@ -11,8 +11,8 @@ const Navbar = () => {
       {/* DropDown Icon */}
       <div className="navbar-start">
        <img
-          className="w-28 h-10 lg:w-[120px] lg:h-[40px] "
-          src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fcompany%2F2024-09-22-66eff19c3253e.webp&w=384&q=75"
+          className="w-28 h-14 lg:w-[120px] lg:h-[40px] "
+          src="https://i.ibb.co.com/gZFJP9ZQ/cupcake.gif"
           alt=""
           srcset=""
         />

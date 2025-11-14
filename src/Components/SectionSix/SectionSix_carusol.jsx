@@ -5,10 +5,10 @@ const SectionSix_carusol = () => {
   return (
     <div className=" w-full max-w-5xl lg:max-w-6xl  mx-auto">
       <div className="flex items-center justify-between border-slate-500 border-b-2 mb-10">
-        <h2 className="text-2xl font-normal">
+        <h2 className="text-sm lg:text-2xl font-normal">
           <span className="text-blue-500">POPULAR</span> CATEGORIES
         </h2>
-        <Link className="text-blue-500 text-lg">View All ◀️ ▶️ </Link>
+        <Link className="text-blue-500 text-xs lg:text-lg">View All ◀️ ▶️ </Link>
       </div>
 
 
@@ -26,7 +26,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/3ycdXJZQ/slide5.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -82,7 +82,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Xdxvqg2/slide4.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -130,13 +130,14 @@ const SectionSix_carusol = () => {
             </div>
           </div>
         </div>
+
         <div className="max-w-2xl flex gap-5 items-center hover:shadow-lg rounded-xl relative group py-3 px-10">
           <div className="">
             <span className="absolute top-4 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-tl-lg">
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/dwN7RVdK/slide3.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -197,7 +198,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/dwN7RVdK/slide3.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -253,7 +254,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Z5n4VRX/slide2.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -301,13 +302,14 @@ const SectionSix_carusol = () => {
             </div>
           </div>
         </div>
+
         <div className="max-w-2xl flex gap-5 items-center hover:shadow-lg rounded-xl relative group py-3 px-10">
           <div className="">
             <span className="absolute top-4 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-tl-lg">
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Xdxvqg2/slide4.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -368,7 +370,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Z5n4VRX/slide2.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -424,7 +426,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Xdxvqg2/slide4.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
@@ -478,7 +480,7 @@ const SectionSix_carusol = () => {
               -10%
             </span>
             <img
-              src="https://martcms-dev-react.6amdev.xyz/_next/image?url=https%3A%2F%2Fmartcms-dev.6amdev.xyz%2Fstorage%2Fapp%2Fpublic%2Fproduct%2Fthumbnail%2F2022-04-20-625fe69f72cce.png&w=96&q=75"
+              src="https://i.ibb.co.com/Z5n4VRX/slide2.jpg"
               alt="Charger"
               className="rounded-xl mx-auto"
             />
