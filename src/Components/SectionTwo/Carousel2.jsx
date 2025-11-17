@@ -61,7 +61,7 @@ const Carousel2 = () => {
   };
 
   return (
-    <div className="relative p-4 rounded-lg lg:max-w-[1210px] sm:max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center  gap-y-2">
+    <div className="relative p-2 lg:p-4 rounded-lg max-w-[1000px] lg:max-w-[1210px] mx-auto px-2 lg:px-8 flex  md:flex-row items-center  gap-y-2">
       <button
         className="absolute left-0 top-1/2 transform -translate-y-1/2 hover:bg-blue-900 text-slate-400 p-2 rounded-full z-10"
         onClick={() => scroll("left")}

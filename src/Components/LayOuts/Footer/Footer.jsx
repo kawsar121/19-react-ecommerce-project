@@ -13,14 +13,14 @@ const Footer = () => {
       <div className="bg-[#f2f3f4] p-8">
         <div className="grid lg:flex items-center justify-between w-11/12 mx-auto bg-blue-800 p-8 rounded-xl">
         <div>
-          <h2 className="text-2xl">Newsletter</h2>
-          <p>Be the first one to know about discounts, offers and events</p>
+          <h2 className="text-xl lg:text-2xl">Newsletter</h2>
+          <p className="text-sm mb-2 lg:text-base">Be the first one to know about discounts, offers and events</p>
         </div>
         <div className="join">
           <input
             type="text"
             placeholder=" Enter Your Email"
-            className="input input-bordered join-item px-10 border-none focus:outline-none"
+            className="input input-bordered join-item px-3 lg:px-10 border-none focus:outline-none"
           />
           <button className="btn btn-primary join-item">Submit</button>
         </div>
@@ -29,10 +29,10 @@ const Footer = () => {
       {/* First Foot End */}
 
       {/* Second Foot Start */}
-      <div className="bg-[#1B7FED4D] p-5">
+      <div className="bg-[#1B7FED4D] p-6">
         <div className="grid lg:flex justify-end gap-6 lg:gap-32 mr-20 mt-7 items-center">
         {/* Social Icons */}
-        <div className="flex gap-6 ">
+        <div className="flex gap-3 lg:gap-6">
           <Link>
             <CiTwitter className="text-2xl" />
           </Link>

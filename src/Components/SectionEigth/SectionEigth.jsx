@@ -25,13 +25,13 @@ const SectionEigth = () => {
             </div>
             {/* Card Iteam */}
       {/* Card*/}
-      <div className="grid justify-center md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
+      <div className="grid grid-cols-2 items-center mx-auto justify-center md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
         {load.map((dataload) => (
           <div
             key={dataload.id}
-            className="max-w-xs hover:shadow-lg  text-white rounded-xl relative group p-4 w-52"
+            className="max-w-xs hover:shadow-lg  text-white rounded-xl relative group p-4 lg:w-52"
           >
-            <span className="absolute top-2 left-1 z-20 bg-red-600 text-white text-xs px-2 py-1 rounded-full">
+            <span className="absolute top-2 left-1 z-20 bg-red-600 text-white text-xs lg:text-sm px-1 lg:px-2 py-1 rounded-full">
               {dataload.discount_price}
             </span>
 
@@ -39,7 +39,7 @@ const SectionEigth = () => {
               <img
                 src={dataload.accessories_image}
                 alt="Charger"
-                className="rounded-xl mx-auto w-48 transform scale-110 group-hover:scale-100 transition-transform duration-500"
+                className="rounded-xl mx-auto w-40 lg:w-48 transform scale-110 group-hover:scale-100 transition-transform duration-500"
               />
             </div>
 
@@ -104,19 +104,19 @@ const SectionEigth = () => {
               <div><p className="text-gray-600 text-xs">({dataload.quantity})</p></div>
             </div>
 
-            <div className="text-center mt-1 text-gray-500 text-sm">
+            <div className="text-center mt-1 text-gray-500 text-xs lg:text-sm">
               {dataload.company}
             </div>
 
-            <div className="text-center text-[#121828] truncate text-sm font-bold">
+            <div className="text-center text-[#121828] truncate text-xs lg:text-sm   font-semibold lg:font-bold">
               {dataload.accessories_name}
             </div>
 
             <div className="text-center mt-1">
-              <span className="line-through text-sm text-gray-500 mr-2">
+              <span className="line-through text-xs lg:text-sm  text-gray-500 mr-2">
                 {dataload.discount_price}
               </span>
-              <span className="text-base font-bold text-black">
+              <span className="text-base lg:text-base font-bold text-black">
                 {dataload.price}
               </span>
             </div>

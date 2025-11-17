@@ -99,7 +99,7 @@ const Navbar = () => {
 
         {/* You can open the modal using document.getElementById('ID').showModal() method */}
         <button
-          className="border-r-[1px] md:border-[#65748B] pr-0 md:pr-2"
+          className="lg:border-r-[1px] md:border-[#65748B] pr-0 md:pr-2"
           onClick={() => document.getElementById("my_modal_3").showModal()}
         >
           <svg

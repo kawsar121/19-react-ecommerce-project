@@ -33,7 +33,7 @@ const SectionFive = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 p-0 lg:p-20 hover:shadow-lg lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 p-0 items-center lg:p-20 hover:shadow-lg lg:grid-cols-4 gap-6">
           <div className="flex items-center gap-3">
             <div>
               <img
