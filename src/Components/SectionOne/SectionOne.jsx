@@ -81,7 +81,7 @@ const SectionOne = () => {
             <Swipers></Swipers>
           </div>
           {/* Bottom */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+          <div className="hidden lg:grid grid-cols-1 md:grid-cols-2 gap-2">
             <img
               className="w-full h-auto object-cover rounded-lg"
               src={banner1}

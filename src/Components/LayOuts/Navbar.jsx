@@ -4,21 +4,21 @@ import { PiHandbagSimpleLight } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import Drawer from "../Theme/Drawer";
 import ThemesControlers from "../Theme/ThemesControlers";
+import logoImg from '../../assets/others/cupcake-dribbble.gif'
 
 const Navbar = () => {
   return (
     <div className="relative z-30 navbar bg-base-100 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  md:flex-row items-center justify-between py-2 gap-y-2 mt-3 ">
       {/* DropDown Icon */}
       <div className="navbar-start">
-       <img
+        <img
           className="w-28 h-14 lg:w-[120px] lg:h-[40px] "
-          src="https://i.ibb.co.com/gZFJP9ZQ/cupcake.gif"
+          src={logoImg}
           alt=""
           srcset=""
         />
       </div>
 
-      
       <div className="navbar-center hidden lg:flex border-2 input-primary w-full  max-w-lg p-0 rounded-full">
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -66,19 +66,22 @@ const Navbar = () => {
 
       <div className="navbar-end gap-2 md:gap-6 items-center">
         {/* Theme controller start */}
-       
-          <ThemesControlers></ThemesControlers>
-    
+
+        <ThemesControlers></ThemesControlers>
+
         {/* Theme controller start */}
 
-
-        
         {/* Search Icon for small device */}
-        <div className="md:hidden">
-          <IoSearchOutline className="text-xl mr-2"></IoSearchOutline>
+        <div className="md:hidden flex">
+          <div>
+            <input className="py-1 relative" type="search" name="" id="" />
+          </div>
+          <div>
+            <IoSearchOutline className="text-xl -ml-7 mt-2  absolute "></IoSearchOutline>
+          </div>
         </div>
         {/* Profile Icon */}
-        
+
         {/* <Link to="/register" className="border-r-[1px] border-[#65748B] pr-2">
           <svg
             width="28"
@@ -121,54 +124,59 @@ const Navbar = () => {
               </button>
             </form>
             <div className="py-0">
-
               {/* Register Start */}
-              < div className="card bg-base-100 w-full max-w-sm mx-auto mt-2 shrink-0 shadow-2xl">
-            <h1 className="text-5xl text-center font-bold">Register now!</h1>
-          <form  className="card-body">
-            <div className="form-control">
-              <input
-                type="text"
-                placeholder="name"
-                name="name"
-                className="input input-bordered"
-                required
-              />
-            </div>
-            <div className="form-control">
-              <input
-                type="email"
-                placeholder="email"
-                name="email"
-                className="input input-bordered"
-                required
-              />
-            </div>
-            <div className="form-control">
-              <input
-                type="password"
-                placeholder="password"
-                name="password"
-                className="input input-bordered"
-                required
-              />
-              <label className="label">
-                <a href="#" className="label-text-alt link link-hover">
-                  Forgot password?
-                </a>
-              </label>
-            </div>
-            <div className="form-control mt-6 mx-auto">
-              <button className="btn btn-primary">Submit</button>
-            </div>
-            <p>Do you have no account?<Link className="text-blue-400" to='/login'>Log In</Link></p>
-          </form>
+              <div className="card bg-base-100 w-full py-10  max-w-sm mx-auto mt-2 shrink-0 shadow-2xl">
+                <h1 className="text-5xl text-center font-bold">
+                  Register now!
+                </h1>
+                <form className="card-body">
+                  <div className="form-control">
+                    <input
+                      type="text"
+                      placeholder="name"
+                      name="name"
+                      className="input input-bordered"
+                      required
+                    />
+                  </div>
+                  <div className="form-control">
+                    <input
+                      type="email"
+                      placeholder="email"
+                      name="email"
+                      className="input input-bordered"
+                      required
+                    />
+                  </div>
+                  <div className="form-control">
+                    <input
+                      type="password"
+                      placeholder="password"
+                      name="password"
+                      className="input input-bordered"
+                      required
+                    />
+                    <label className="label">
+                      <a href="#" className="label-text-alt link link-hover">
+                        Forgot password?
+                      </a>
+                    </label>
+                  </div>
+                  <div className="form-control mt-6 mx-auto">
+                    <button className="btn btn-primary">Submit</button>
+                  </div>
+                  <p>
+                    Do you have no account?
+                    <Link className="text-blue-400" to="/login">
+                      Log In
+                    </Link>
+                  </p>
+                </form>
               </div>
               {/* Register End */}
             </div>
           </div>
         </dialog>
-
         {/* random icon */}
         <div className="border-r-[1px] border-[#65748B] pr-2 hidden md:block">
           <svg
@@ -186,23 +194,23 @@ const Navbar = () => {
           </svg>
         </div>
         {/* <IoMdHeartEmpty className="text-2xl border-r-[1px] border-[#65748B] pr-2"></IoMdHeartEmpty> */}
-        
+
         {/* Heart Icon */}
-       <div className="hidden md:block">
-         <svg
-          width="30"
-          height="25"
-          className="border-r-[1px] border-[#65748B] pr-2"
-          viewBox="0 0 19 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M9.5 17.125C9.39868 17.126 9.29887 17.1004 9.21055 17.0508C8.89141 16.8727 1.48438 12.6645 1.48438 7.32813C1.48438 6.39349 1.77845 5.48255 2.32494 4.72434C2.87143 3.96612 3.64263 3.39908 4.5293 3.10352C5.41597 2.80796 6.37316 2.79888 7.26528 3.07756C8.1574 3.35623 8.93922 3.90854 9.5 4.65625C10.0608 3.90854 10.8426 3.35623 11.7347 3.07756C12.6268 2.79888 13.584 2.80796 14.4707 3.10352C15.3574 3.39908 16.1286 3.96612 16.6751 4.72434C17.2216 5.48255 17.5156 6.39349 17.5156 7.32813C17.5156 9.59922 16.202 11.9297 13.6117 14.2602C12.4355 15.3175 11.1549 16.2526 9.78945 17.0508C9.70113 17.1004 9.60132 17.126 9.5 17.125ZM5.9375 4.0625C5.0714 4.0625 4.24078 4.40656 3.62835 5.01898C3.01593 5.6314 2.67188 6.46203 2.67188 7.32813C2.67188 11.425 8.16406 15.0246 9.5 15.841C10.8359 15.0246 16.3281 11.425 16.3281 7.32813C16.3288 6.57319 16.0679 5.84134 15.5898 5.25708C15.1117 4.67282 14.446 4.27225 13.7059 4.12352C12.9657 3.9748 12.1969 4.0871 11.5302 4.44132C10.8636 4.79554 10.3402 5.36981 10.0492 6.06641C10.0045 6.17531 9.92839 6.26845 9.8306 6.334C9.7328 6.39955 9.61773 6.43455 9.5 6.43455C9.38227 6.43455 9.2672 6.39955 9.16941 6.334C9.07161 6.26845 8.99552 6.17531 8.95078 6.06641C8.70365 5.47137 8.28527 4.96319 7.74876 4.6064C7.21225 4.24961 6.58181 4.06029 5.9375 4.0625Z"
-            fill="#65748B"
-          ></path>
-        </svg>
-       </div>
+        <div className="hidden md:block">
+          <svg
+            width="30"
+            height="25"
+            className="border-r-[1px] border-[#65748B] pr-2"
+            viewBox="0 0 19 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.5 17.125C9.39868 17.126 9.29887 17.1004 9.21055 17.0508C8.89141 16.8727 1.48438 12.6645 1.48438 7.32813C1.48438 6.39349 1.77845 5.48255 2.32494 4.72434C2.87143 3.96612 3.64263 3.39908 4.5293 3.10352C5.41597 2.80796 6.37316 2.79888 7.26528 3.07756C8.1574 3.35623 8.93922 3.90854 9.5 4.65625C10.0608 3.90854 10.8426 3.35623 11.7347 3.07756C12.6268 2.79888 13.584 2.80796 14.4707 3.10352C15.3574 3.39908 16.1286 3.96612 16.6751 4.72434C17.2216 5.48255 17.5156 6.39349 17.5156 7.32813C17.5156 9.59922 16.202 11.9297 13.6117 14.2602C12.4355 15.3175 11.1549 16.2526 9.78945 17.0508C9.70113 17.1004 9.60132 17.126 9.5 17.125ZM5.9375 4.0625C5.0714 4.0625 4.24078 4.40656 3.62835 5.01898C3.01593 5.6314 2.67188 6.46203 2.67188 7.32813C2.67188 11.425 8.16406 15.0246 9.5 15.841C10.8359 15.0246 16.3281 11.425 16.3281 7.32813C16.3288 6.57319 16.0679 5.84134 15.5898 5.25708C15.1117 4.67282 14.446 4.27225 13.7059 4.12352C12.9657 3.9748 12.1969 4.0871 11.5302 4.44132C10.8636 4.79554 10.3402 5.36981 10.0492 6.06641C10.0045 6.17531 9.92839 6.26845 9.8306 6.334C9.7328 6.39955 9.61773 6.43455 9.5 6.43455C9.38227 6.43455 9.2672 6.39955 9.16941 6.334C9.07161 6.26845 8.99552 6.17531 8.95078 6.06641C8.70365 5.47137 8.28527 4.96319 7.74876 4.6064C7.21225 4.24961 6.58181 4.06029 5.9375 4.0625Z"
+              fill="#65748B"
+            ></path>
+          </svg>
+        </div>
 
         {/* Start Drawer */}
         <div className="hidden md:block">
@@ -210,7 +218,7 @@ const Navbar = () => {
         </div>
         {/* End Drawer */}
 
-          <div className="dropdown">
+        <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +237,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-50 -left-16 p-2 shadow"
           >
             <li>
               <a>Parent</a>
@@ -243,7 +251,7 @@ const Navbar = () => {
               </ul>
             </li>
           </ul>
-          </div>
+        </div>
       </div>
     </div>
   );

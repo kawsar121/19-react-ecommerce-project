@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Drawer from "../Theme/Drawer";
 import View from "../Theme/View";
+import { NavLink } from "react-router-dom";
 
 const SectionFour = () => {
   const [load, setLoad] = useState([]);
@@ -15,6 +16,85 @@ const SectionFour = () => {
         console.error("ডেটা আনার সময় সমস্যা:", error);
       });
   }, []);
+  // Nav Link
+  const link = (
+    <>
+      <li className="text-xs lg:text-base">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            `cursor-pointer border-b-2 ${
+              isActive
+                ? "border-blue-600 text-[#121828] font-bold"
+                : "border-transparent text-gray-600"
+            }`
+          }
+        >
+          Featured Product
+        </NavLink>
+      </li>
+
+      <li className="text-xs lg:text-base">
+        <NavLink
+          to="/top-rated"
+          className={({ isActive }) =>
+            `cursor-pointer border-b-2 ${
+              isActive
+                ? "border-blue-600 text-[#121828] font-bold"
+                : "border-transparent text-gray-600"
+            }`
+          }
+        >
+          Top Rated
+        </NavLink>
+      </li>
+
+      <li className="text-xs lg:text-base">
+        <NavLink
+          to="/best-selling"
+          className={({ isActive }) =>
+            `cursor-pointer border-b-2 ${
+              isActive
+                ? "border-blue-600 text-[#121828] font-bold"
+                : "border-transparent text-gray-600"
+            }`
+          }
+        >
+          Best Selling
+        </NavLink>
+      </li>
+
+      <li className="text-xs lg:text-base">
+        <NavLink
+          to="/latest-product"
+          className={({ isActive }) =>
+            `cursor-pointer border-b-2 ${
+              isActive
+                ? "border-blue-600 text-[#121828] font-bold"
+                : "border-transparent text-gray-600"
+            }`
+          }
+        >
+          Latest Product
+        </NavLink>
+      </li>
+
+      <li className="text-xs lg:text-base">
+        <NavLink
+          to="/new-arrivals"
+          className={({ isActive }) =>
+            `cursor-pointer border-b-2 ${
+              isActive
+                ? "border-blue-600 text-[#121828] font-bold"
+                : "border-transparent text-gray-600"
+            }`
+          }
+        >
+          New Arrivals
+        </NavLink>
+      </li>
+    </>
+  );
 
   return (
     <div className="w-full max-w-5xl lg:max-w-6xl  mx-auto items-center mt-14">
@@ -22,55 +102,7 @@ const SectionFour = () => {
       <div className="text-center mb-5">
         <h2 className="text-xl font-bold text-black">Recommended For You</h2>
         <ul class="flex justify-center gap-7 text-black mt-4">
-          <li>
-            <input type="radio" name="tab" id="tab1" class="peer hidden" />
-            <label
-              for="tab1"
-              className="cursor-pointer border-b-2 border-transparent peer-checked:border-blue-600 peer-checked:text-[#121828] peer-checked:font-bold text-gray-600"
-            >
-              Featured Product
-            </label>
-          </li>
-
-          <li>
-            <input type="radio" name="tab" id="tab2" class="peer hidden" />
-            <label
-              for="tab2"
-              className="cursor-pointer border-b-2 border-transparent peer-checked:border-blue-600 peer-checked:text-[#121828] peer-checked:font-bold text-gray-600"
-            >
-              Top Rated
-            </label>
-          </li>
-
-          <li>
-            <input type="radio" name="tab" id="tab3" class="peer hidden" />
-            <label
-              for="tab3"
-              className="cursor-pointer border-b-2 border-transparent peer-checked:border-blue-600 peer-checked:text-[#121828] peer-checked:font-bold text-gray-600"
-            >
-              Best Selling
-            </label>
-          </li>
-
-          <li>
-            <input type="radio" name="tab" id="tab4" class="peer hidden" />
-            <label
-              for="tab4"
-              className="cursor-pointer border-b-2 border-transparent peer-checked:border-blue-600 peer-checked:text-[#121828] peer-checked:font-bold text-gray-600"
-            >
-              Latest Product
-            </label>
-          </li>
-
-          <li>
-            <input type="radio" name="tab" id="tab5" class="peer hidden" />
-            <label
-              for="tab5"
-              className="cursor-pointer border-b-2 border-transparent peer-checked:border-blue-600 peer-checked:text-[#121828] peer-checked:font-bold text-gray-600"
-            >
-              New Arrivals
-            </label>
-          </li>
+          {link}
         </ul>
       </div>
 
@@ -148,10 +180,12 @@ const SectionFour = () => {
                 />
               </div> */}
               <div className="mt-1 text-gray-400 text-xs flex items-center gap-1">
-              ⭐⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
               </div>
-              
-              <div><p className="text-gray-600 text-xs">({dataload.quantity})</p></div>
+
+              <div>
+                <p className="text-gray-600 text-xs">({dataload.quantity})</p>
+              </div>
             </div>
 
             <div className="text-center mt-1 text-gray-500 text-sm">

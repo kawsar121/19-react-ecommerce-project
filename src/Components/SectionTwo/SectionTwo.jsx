@@ -67,7 +67,7 @@ const SectionTwo = () => {
 };
 
 const TimeBox = ({ label, value }) => (
-  <div className="bg-blue-600 rounded-md px-2  text-center w-10">
+  <div className="bg-blue-600 rounded-md text-center w-12">
     <div className="text-sm font-bold">{String(value).padStart(2, "0")}</div>
     <div className="text-xs mt-1">{label}</div>
   </div>

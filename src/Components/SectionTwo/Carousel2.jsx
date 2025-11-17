@@ -6,6 +6,7 @@ import menuimg2 from '../../assets/menu/dessert-bg.jpeg'
 import menuimg3 from '../../assets/menu/pizza-bg.jpg'
 import menuimg4 from '../../assets/menu/salad-bg.jpg'
 import menuimg5 from '../../assets/menu/soup-bg.jpg'
+import View from "../Theme/View";
 
 const categories = [
   
@@ -96,6 +97,8 @@ const Carousel2 = () => {
                   ></path>
                 </svg>
               </button>
+
+              
               <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
                 <svg
                   width="14"
@@ -111,12 +114,11 @@ const Carousel2 = () => {
                 </svg>
               </button>
 
-              {/* adjust Modal */}
-              {/* You can open the modal using document.getElementById('ID').showModal() method */}
+              {/* eye view */}
               <button
                 className=""
                 onClick={() =>
-                  document.getElementById("my_modal_3").showModal()
+                  document.getElementById("my_modal_2").showModal()
                 }
               >
                 <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
@@ -134,18 +136,18 @@ const Carousel2 = () => {
                   </svg>
                 </button>
               </button>
-              <dialog id="my_modal_3" className="modal">
-                <div className=" bg-white p-5">
+              <dialog id="my_modal_2" className="modal">
+                <div className=" bg-white p-1 w-96 lg:w-[850px]  lg:p-16">
                   <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
-                    <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-[18rem] top-10 ">
+                    <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-8 lg:right-[17rem] top-96 lg:top-36 ">
                       ✕
                     </button>
                   </form>
-                  <div className="flex gap-24 justify-center my-5">
+                  <div className="flex gap-10 lg:gap-24 justify-center my-5">
                     {/* card */}
-                    <div className="max-w-xs  text-white rounded-xl relative group p-4 w-52">
-                      <span className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded-full">
+                    <div className="max-w-xs  text-white rounded-xl relative group p-4 lg:w-52">
+                      <span className="absolute -top-4  lg:top-2 left-2 bg-red-600 text-white  text-[10px] lg:text-sm  px-1  lg:px-2 py-1 rounded-full">
                         -$233
                       </span>
 
@@ -156,7 +158,7 @@ const Carousel2 = () => {
                       />
 
                       <div className="absolute top-3 right-[-14px] flex flex-col gap-2 opacity-100 transition duration-300">
-                        <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center">
+                        <button className="w-5 lg:w-9 h-5 lg:h-9 bg-white border-2 rounded-full flex items-center justify-center">
                           <svg
                             width="14"
                             height="12"
@@ -170,7 +172,7 @@ const Carousel2 = () => {
                             ></path>
                           </svg>
                         </button>
-                        <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
+                        <button className="w-5 lg:w-9 h-5 lg:h-9 bg-white border-2 rounded-full flex items-center justify-center ">
                           <svg
                             width="14"
                             height="12"
@@ -186,7 +188,7 @@ const Carousel2 = () => {
                         </button>
                         <button
                           to="/viewPage"
-                          className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center "
+                          className="w-5 lg:w-9 h-5 lg:h-9 bg-white border-2 rounded-full flex items-center justify-center "
                         >
                           <svg
                             width="14"
@@ -202,54 +204,11 @@ const Carousel2 = () => {
                           </svg>
                         </button>
                       </div>
-
-                      {/* <div className="flex justify-center mt-4 text-gray-400 text-sm">
-          <div className="rating rating-xs">
-            <input
-              type="radio"
-              name="rating-5"
-              className="mask mask-star-2 bg-orange-400"
-            />
-            <input
-              type="radio"
-              name="rating-5"
-              className="mask mask-star-2 bg-orange-400"
-              defaultChecked
-            />
-            <input
-              type="radio"
-              name="rating-5"
-              className="mask mask-star-2 bg-orange-400"
-            />
-            <input
-              type="radio"
-              name="rating-5"
-              className="mask mask-star-2 bg-orange-400"
-            />
-            <input
-              type="radio"
-              name="rating-5"
-              className="mask mask-star-2 bg-orange-400"
-            />
-          </div>{" "}
-          (0)
-        </div> */}
-
-                      {/* <div className="text-center mt-1 text-gray-500 text-sm">Tech Shop</div>
-
-        <div className="text-center text-black font-semibold truncate">
-          Yuzu Fast Charger 27W...
-        </div> */}
-
-                      {/* <div className="text-center mt-1">
-          <span className="line-through text-gray-500 mr-2">$118</span>
-          <span className="text-lg font-bold text-black">$115</span>
-        </div> */}
                     </div>
 
                     {/* side */}
                     <div>
-                      <h2 className="text-black text-xl">
+                      <h2 className="text-black text-[10px] lg:text-xl">
                         15 IN 1 MAKEUP COMBO SET WITH FULL <br /> MAKEUP COVERAGE set
                       </h2>
                       <button className="bg-green-100 text-green-400 px-2 rounded-2xl mt-3">
@@ -276,26 +235,27 @@ const Carousel2 = () => {
                               ></path>
                             </svg>
                           </div>
-                          <div>In Stock</div>
+                          <div className="text-xs lg:text-lg">In Stock</div>
                         </div>
                       </button>
                       <div className=" mt-4 items-center flex gap-2">
                         <span className="line-through text-gray-500 mr-2">
                           $118
                         </span>
-                        <span className="text-2xl font-bold text-blue-800">
+                        <span className="text-xl lg:text-2xl font-bold text-blue-800">
                           $115
                         </span>
-                        <button className="bg-red-600 text-sm font-bold text-white px-2 rounded-sm">
+                        <button className="bg-red-600 text-sm font-semibold lg:font-bold text-white     px-1 lg:px-2 whitespace-nowrap rounded-sm">
                           $0 SAVE
                         </button>
                         <p className="text-xs">(TAX INCLUDED)</p>
                       </div>
+                      {/* Button */}
                       <div className="mt-6 flex gap-3">
-                        <button className="bg-orange-300 px-8 py-3">
+                        <button className="bg-orange-300 text-sm lg:text-base px-3 whitespace-nowrap lg:px-8 py-2 lg:py-3">
                           Buy Now
                         </button>
-                        <button className="bg-blue-300 px-8 py-3">
+                        <button className="bg-blue-300 text-sm lg:text-base px-3 whitespace-nowrap lg:px-8 py-2 lg:py-3">
                           Add to Cart
                         </button>
                       </div>

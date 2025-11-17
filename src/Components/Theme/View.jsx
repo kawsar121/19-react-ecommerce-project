@@ -3,11 +3,9 @@ import React from 'react';
 const View = () => {
     return (
         <div>
-            {/* adjust Modal */}
-            {/* You can open the modal using document.getElementById('ID').showModal() method */}
             <button
               className=""
-              onClick={() => document.getElementById("my_modal_3").showModal()}
+              onClick={() => document.getElementById("my_modal_2").showModal()}
             >
               <button className="w-9 h-9 bg-white border-2 rounded-full flex items-center justify-center ">
                 <svg
@@ -24,8 +22,8 @@ const View = () => {
                 </svg>
               </button>
             </button>
-            <dialog id="my_modal_3" className="modal">
-              <div className=" bg-white p-10">
+            <dialog id="my_modal_2" className="modal">
+              <div className=" bg-white px-36">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
                   <button className="btn bg-gray-300 btn-sm btn-circle btn-ghost absolute right-[20rem] top-10 ">
